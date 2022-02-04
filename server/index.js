@@ -23,7 +23,8 @@ app.get("/", (req, res) => {
 app.get("/country/:id", (req, res) => {
   res.set("Access-Control-Allow-Origin", "*");
   const { id } = req.params;
-  res.send(country.id)
+  const foundCountry = country.find((check) => check.id == id);
+  res.send(foundCountry);
 });
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
