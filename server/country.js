@@ -1,16 +1,16 @@
 const country = [
   {
-    id: "US",
+    id: "us",
     states: [
       {
-        state: "Andhra Pradesh",
+        state: "Andra Pradesh",
         totalArea: 162968,
         landCover: 131068,
         forestCover: 31900,
         percentageOfForestCover: 19.57,
       },
       {
-        state: "Andhra Pradesh",
+        id: "Andhra Pradesh",
         totalArea: 162968,
         landCover: 131068,
         forestCover: 31900,
@@ -155,16 +155,16 @@ const country = [
     id: "Netherlands",
     states: [
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
+        state: "Drenthe",
+        totalArea: 2680,
+        landCover: 2230,
+        forestCover: 431.41,
+        percentageOfForestCover: 16.09,
       },
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
+        state: "Flevoland",
+        totalArea: 2412,
+        landCover: 1230,
         forestCover: 31900,
         percentageOfForestCover: 19.57,
       },
