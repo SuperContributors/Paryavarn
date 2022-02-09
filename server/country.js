@@ -461,40 +461,111 @@ const country = [
     ],
   },
   {
-    id: "UK",
-    states: [
-      {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
-      },
-      {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
-      },
-    ],
-  },
-  {
     id: "Canada",
     states: [
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
+        state: "Alberta",
+        totalArea: 661848,
+        landCover: 258121,
+        forestCover: 403727,
+        percentageOfForestCover: 61,
+        "check":1
       },
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
+        state: "British Columbia",
+        totalArea: 944735,
+        landCover: 378839,
+        forestCover: 565896,
+        percentageOfForestCover: 59.9,
+        "check":2
+      },
+      {
+        state: "Manitoba",
+        totalArea: 647797,
+        landCover: 278552,
+        forestCover: 369244,
+        percentageOfForestCover: 57,
+        "check":3
+      },
+      {
+        state: "New Brunswick",
+        totalArea: 72908,
+        landCover: 10936,
+        forestCover: 61971,
+        percentageOfForestCover: 85,
+        "check":4
+      },
+      {
+        state: "Newfoundland and Labrador",
+        totalArea: 405212,
+        landCover: 170189,
+        forestCover: 235023,
+        percentageOfForestCover: 58,
+        "check":5
+      },
+      {
+        state: "Northwest Territories",
+        totalArea: 1346000,
+        landCover: 1103720,
+        forestCover: 242280,
+        percentageOfForestCover: 18,
+        "check":6
+      },
+      {
+        state: "Nova Scotia",
+        totalArea: 55284,
+        landCover: 13821,
+        forestCover: 41463,
+        percentageOfForestCover: 75,
+        "check":7
+      },
+      {
+        state: "Nunavut",
+        totalArea: 2093000,
+        landCover: 1255800,
+        forestCover: 837200,
+        percentageOfForestCover: 61,
+        "check":8
+      },
+      {
+        state: "Ontario",
+        totalArea: 1076000,
+        landCover: 667120,
+        forestCover: 408880,
+        percentageOfForestCover: 61,
+        "check":9
+      },
+      {
+        state: "Prince Edward Island",
+        totalArea: 5660,
+        landCover: 3113,
+        forestCover: 2547,
+        percentageOfForestCover: 61,
+        "check":10
+      },
+      {
+        state: "Quebec",
+        totalArea: 1668000,
+        landCover: 1334400,
+        forestCover: 333600,
+        percentageOfForestCover: 20,
+        "check":11
+      },
+      {
+        state: "Saskatchewan",
+        totalArea: 651900,
+        landCover: 586710,
+        forestCover: 65190,
+        percentageOfForestCover: 10,
+        "check":12
+      },
+      {
+        state: "Yukon",
+        totalArea: 482443,
+        landCover: 226748,
+        forestCover: 255695,
+        percentageOfForestCover: 53,
+        "check":13
       },
     ],
   },
