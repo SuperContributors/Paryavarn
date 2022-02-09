@@ -573,18 +573,52 @@ const country = [
     id: "Australia",
     states: [
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
+        state: "New South Wales",
+        totalArea: 801150,
+        landCover: 680977,
+        forestCover: 120172,
+        percentageOfForestCover: 15,
+        "check":1
       },
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
+        state: "Victoria",
+        totalArea: 227444,
+        landCover: 22744,
+        forestCover: 204670,
+        percentageOfForestCover: 90,
+        "check":2
+      },
+      {
+        state: " Queensland",
+        totalArea: 1835000,
+        landCover: 1101000,
+        forestCover: 734000,
+        percentageOfForestCover: 40,
+        "check":3
+      },
+      {
+        state: "Western Australia",
+        totalArea: 2646000,
+        landCover: 2934800,
+        forestCover: 529200,
+        percentageOfForestCover: 20,
+        "check":4
+      },
+      {
+        state: "South Australia",
+        totalArea: 983482,
+        landCover: 975319,
+        forestCover: 8163,
+        percentageOfForestCover: 0.83,
+        "check":5
+      },
+      {
+        state: "Tasmania",
+        totalArea: 68401,
+        landCover: 34884,
+        forestCover: 33516,
+        percentageOfForestCover: 49,
+        "check":6
       },
     ],
   },
