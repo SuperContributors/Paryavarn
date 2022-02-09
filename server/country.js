@@ -1,6 +1,10 @@
 const country = [
   {
     id: "us",
+    totalArea: 9834000,
+    landCover: 6559278,
+    forestCover: 3272722,
+    percentageOfForestCover: 33.3,
     states: [
       {
         state: "Maine",
@@ -462,6 +466,10 @@ const country = [
   },
   {
     id: "Canada",
+     totalArea: 9985000,
+    landCover: 6190700,
+    forestCover: 3794300,
+    percentageOfForestCover: 38,
     states: [
       {
         state: "Alberta",
@@ -571,6 +579,10 @@ const country = [
   },
   {
     id: "Australia",
+    totalArea: 7617930,
+    landCover: 6322881,
+    forestCover: 1295048,
+    percentageOfForestCover: 17,
     states: [
       {
         state: "New South Wales",
