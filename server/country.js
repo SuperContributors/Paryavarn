@@ -1,6 +1,10 @@
 const country = [
   {
     id: "us",
+    totalArea: 9834000,
+    landCover: 6559278,
+    forestCover: 3272722,
+    percentageOfForestCover: 33.3,
     states: [
       {
         state: "Maine",
@@ -186,62 +190,447 @@ const country = [
         percentageOfForestCover: 52.83,
         "check":23
       },
-    ],
-  },
-  {
-    id: "UK",
-    states: [
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
+        state: "Guam",
+        totalArea: 549,
+        landCover: 259,
+        forestCover: 290,
+        percentageOfForestCover: 52.82,
+        "check":24
       },
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
+        state: "Washington",
+        totalArea: 184666,
+        landCover: 87273,
+        forestCover: 97392,
+        percentageOfForestCover: 52.74,
+        "check":25
+      },
+      {
+        state: "Florida",
+        totalArea: 170312,
+        landCover: 83998,
+        forestCover: 86314,
+        percentageOfForestCover: 50.68,
+        "check":26
+      },
+      {
+        state: "Kentucky",
+        totalArea: 104659,
+        landCover: 53010,
+        forestCover: 51649,
+        percentageOfForestCover: 49.35,
+        "check":27
+      },
+      {
+        state: "Wisconsin",
+        totalArea: 169639,
+        landCover: 89546,
+        forestCover: 83089,
+        percentageOfForestCover: 48.98,
+        "check":28
+      },
+      {
+        state: "Oregon",
+        totalArea: 255026,
+        landCover: 131312,
+        forestCover: 123713,
+        percentageOfForestCover: 48.51,
+        "check":29
+      },
+      {
+        state: "Hawaii",
+        totalArea: 28311,
+        landCover: 16270,
+        forestCover: 12040,
+        percentageOfForestCover: 42.53,
+        "check":30
+      },
+      {
+        state: "New Jersey",
+        totalArea: 22591,
+        landCover: 13166,
+        forestCover: 9425,
+        percentageOfForestCover: 41.72,
+        "check":31
+      },
+      {
+        state: "Idaho",
+        totalArea: 216632,
+        landCover: 128788,
+        forestCover: 87844,
+        percentageOfForestCover: 40.55,
+        "check":32
+      },
+      {
+        state: "Maryland",
+        totalArea: 32134,
+        landCover: 19486,
+        forestCover: 12648,
+        percentageOfForestCover: 39.36,
+        "check":33
+      },
+      {
+        state: "Texas",
+        totalArea: 695662,
+        landCover: 435971,
+        forestCover: 259690,
+        percentageOfForestCover: 37.33,
+        "check":33
+      },
+      {
+        state: "Maryland",
+        totalArea: 32134,
+        landCover: 19486,
+        forestCover: 12648,
+        percentageOfForestCover: 39.36,
+        "check":34
+      },
+      {
+        state: "Missouri",
+        totalArea: 180561,
+        landCover: 117076,
+        forestCover: 63485,
+        percentageOfForestCover: 35.16,
+        "check":35
+      },
+      {
+        state: "Alaska",
+        totalArea: 1718000,
+        landCover: 1113951,
+        forestCover: 604049,
+        percentageOfForestCover: 35.16,
+        "check":36
+      },
+      {
+        state: "Utah",
+        totalArea: 219887,
+        landCover: 144070,
+        forestCover: 75817,
+        percentageOfForestCover: 34.48,
+        "check":37
+      },
+      {
+        state: "Colorado",
+        totalArea: 269837,
+        landCover: 176959,
+        forestCover: 92877,
+        percentageOfForestCover: 34.42,
+        "check":38
+      },
+      {
+        state: "Minnesota",
+        totalArea: 225181,
+        landCover: 148439,
+        forestCover: 76742,
+        percentageOfForestCover: 34.08,
+        "check":39
+      },
+      {
+        state: "District of Columbia",
+        totalArea: 177,
+        landCover: 117,
+        forestCover: 60,
+        percentageOfForestCover: 33.90,
+        "check":40
+      },
+      {
+        state: "California",
+        totalArea: 423970,
+        landCover: 285289,
+        forestCover: 138680,
+        percentageOfForestCover: 32.71,
+        "check":41
+      },
+      {
+        state: "New Mexico",
+        totalArea: 315194,
+        landCover: 214363,
+        forestCover: 100830,
+        percentageOfForestCover: 31.99,
+        "check":42
+      },
+      {
+        state: "Ohio",
+        totalArea: 116096,
+        landCover: 80199,
+        forestCover: 35896,
+        percentageOfForestCover: 30.92,
+        "check":43
+      },
+      {
+        state: "Oklahoma",
+        totalArea: 181037,
+        landCover: 128898,
+        forestCover: 52139,
+        percentageOfForestCover: 28.80,
+        "check":44
+      },
+      {
+        state: "Montana",
+        totalArea: 380832,
+        landCover: 276293,
+        forestCover: 104538,
+        percentageOfForestCover: 27.45,
+        "check":45
+      },
+      {
+        state: "Delaware",
+        totalArea: 5133,
+        landCover: 3734,
+        forestCover: 1399,
+        percentageOfForestCover: 27.26,
+        "check":46
+      },
+      {
+        state: "Arizona",
+        totalArea: 295254,
+        landCover: 219551,
+        forestCover: 75703,
+        percentageOfForestCover: 25.64,
+        "check":47
+      },
+      {
+        state: "Indiana",
+        totalArea: 94322,
+        landCover: 74458,
+        forestCover: 19864,
+        percentageOfForestCover: 21.06,
+        "check":48
+      },
+      {
+        state: "Wyoming",
+        totalArea: 253596,
+        landCover: 206883,
+        forestCover: 46712,
+        percentageOfForestCover: 18.42,
+        "check":49
+      },
+      {
+        state: "Nevada",
+        totalArea: 286367,
+        landCover: 240863,
+        forestCover: 45504,
+        percentageOfForestCover: 15.89,
+        "check":50
+      },
+      {
+        state: "Illinois",
+        totalArea: 149998,
+        landCover: 129538,
+        forestCover: 20459,
+        percentageOfForestCover: 13.64,
+        "check":51
+      },
+      {
+        state: "Iowa",
+        totalArea: 144669,
+        landCover: 13273,
+        forestCover: 12195,
+        percentageOfForestCover: 8.43,
+        "check":52
+      },
+      {
+        state: "Kansas",
+        totalArea: 213099,
+        landCover: 203019,
+        forestCover: 10079,
+        percentageOfForestCover: 4.73,
+        "check":53
+      },
+      {
+        state: "South Dakota",
+        totalArea: 199730,
+        landCover: 191880,
+        forestCover: 7849,
+        percentageOfForestCover: 3.93,
+        "check":54
+      },
+      {
+        state: "Nebraska",
+        totalArea: 200356,
+        landCover: 193944,
+        forestCover: 6411,
+        percentageOfForestCover: 3.20,
+        "check":55
+      },
+      {
+        state: "North Dakota",
+        totalArea: 183123,
+        landCover: 179973,
+        forestCover: 3149,
+        percentageOfForestCover: 1.72,
+        "check":56
       },
     ],
   },
   {
     id: "Canada",
+     totalArea: 9985000,
+    landCover: 6190700,
+    forestCover: 3794300,
+    percentageOfForestCover: 38,
     states: [
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
+        state: "Alberta",
+        totalArea: 661848,
+        landCover: 258121,
+        forestCover: 403727,
+        percentageOfForestCover: 61,
+        "check":1
       },
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
+        state: "British Columbia",
+        totalArea: 944735,
+        landCover: 378839,
+        forestCover: 565896,
+        percentageOfForestCover: 59.9,
+        "check":2
+      },
+      {
+        state: "Manitoba",
+        totalArea: 647797,
+        landCover: 278552,
+        forestCover: 369244,
+        percentageOfForestCover: 57,
+        "check":3
+      },
+      {
+        state: "New Brunswick",
+        totalArea: 72908,
+        landCover: 10936,
+        forestCover: 61971,
+        percentageOfForestCover: 85,
+        "check":4
+      },
+      {
+        state: "Newfoundland and Labrador",
+        totalArea: 405212,
+        landCover: 170189,
+        forestCover: 235023,
+        percentageOfForestCover: 58,
+        "check":5
+      },
+      {
+        state: "Northwest Territories",
+        totalArea: 1346000,
+        landCover: 1103720,
+        forestCover: 242280,
+        percentageOfForestCover: 18,
+        "check":6
+      },
+      {
+        state: "Nova Scotia",
+        totalArea: 55284,
+        landCover: 13821,
+        forestCover: 41463,
+        percentageOfForestCover: 75,
+        "check":7
+      },
+      {
+        state: "Nunavut",
+        totalArea: 2093000,
+        landCover: 1255800,
+        forestCover: 837200,
+        percentageOfForestCover: 61,
+        "check":8
+      },
+      {
+        state: "Ontario",
+        totalArea: 1076000,
+        landCover: 667120,
+        forestCover: 408880,
+        percentageOfForestCover: 61,
+        "check":9
+      },
+      {
+        state: "Prince Edward Island",
+        totalArea: 5660,
+        landCover: 3113,
+        forestCover: 2547,
+        percentageOfForestCover: 61,
+        "check":10
+      },
+      {
+        state: "Quebec",
+        totalArea: 1668000,
+        landCover: 1334400,
+        forestCover: 333600,
+        percentageOfForestCover: 20,
+        "check":11
+      },
+      {
+        state: "Saskatchewan",
+        totalArea: 651900,
+        landCover: 586710,
+        forestCover: 65190,
+        percentageOfForestCover: 10,
+        "check":12
+      },
+      {
+        state: "Yukon",
+        totalArea: 482443,
+        landCover: 226748,
+        forestCover: 255695,
+        percentageOfForestCover: 53,
+        "check":13
       },
     ],
   },
   {
     id: "Australia",
+    totalArea: 7617930,
+    landCover: 6322881,
+    forestCover: 1295048,
+    percentageOfForestCover: 17,
     states: [
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
+        state: "New South Wales",
+        totalArea: 801150,
+        landCover: 680977,
+        forestCover: 120172,
+        percentageOfForestCover: 15,
+        "check":1
       },
       {
-        state: "Andhra Pradesh",
-        totalArea: 162968,
-        landCover: 131068,
-        forestCover: 31900,
-        percentageOfForestCover: 19.57,
+        state: "Victoria",
+        totalArea: 227444,
+        landCover: 22744,
+        forestCover: 204670,
+        percentageOfForestCover: 90,
+        "check":2
+      },
+      {
+        state: " Queensland",
+        totalArea: 1835000,
+        landCover: 1101000,
+        forestCover: 734000,
+        percentageOfForestCover: 40,
+        "check":3
+      },
+      {
+        state: "Western Australia",
+        totalArea: 2646000,
+        landCover: 2934800,
+        forestCover: 529200,
+        percentageOfForestCover: 20,
+        "check":4
+      },
+      {
+        state: "South Australia",
+        totalArea: 983482,
+        landCover: 975319,
+        forestCover: 8163,
+        percentageOfForestCover: 0.83,
+        "check":5
+      },
+      {
+        state: "Tasmania",
+        totalArea: 68401,
+        landCover: 34884,
+        forestCover: 33516,
+        percentageOfForestCover: 49,
+        "check":6
       },
     ],
   },
