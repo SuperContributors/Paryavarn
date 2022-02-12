@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-const health = require("./country");
+
 
 app.get("/country", (req, res) => {
   res.set("Access-Control-Allow-Origin", "*");
