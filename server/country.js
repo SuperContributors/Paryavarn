@@ -96,7 +96,7 @@ const country = [
       },
       {
         state: "New York",
-        totalArea: 141,300,
+        totalArea: 141300,
         landCover: 52450,
         forestCover: 88849,
         percentageOfForestCover: 62.88,
@@ -636,6 +636,10 @@ const country = [
   },
   {
     id: "Germany",
+    totalArea: 357022 ,
+    landCover:243022,
+    forestCover:114000,
+    percentageOfForestCover: 31.93,
     states: [
       {
         state: "Baden Württemberg",
@@ -696,7 +700,7 @@ const country = [
         {
         state: "Lower Saxony",
         totalArea: 47618,
-        landCover: 44218
+        landCover: 44218,
         forestCover:3400,
         percentageOfForestCover: 7.14,
       },
@@ -753,6 +757,10 @@ const country = [
   },
   {
     id: "Italy",
+    totalArea: 301340,
+    landCover:209850,
+    forestCover: 91490,
+    percentageOfForestCover: 30.36,
     states: [
       {
         state: "Abruzzo",
@@ -764,7 +772,7 @@ const country = [
       {
         state: "Aosta Valley",
         totalArea: 3261,
-        landCover: ,
+        landCover: 80,
         forestCover: 1730,
         percentageOfForestCover: 19.57,
       },
@@ -877,7 +885,7 @@ const country = [
       state: "Tuscany",
       totalArea: 22987,
       landCover: 131068,
-      forestCover: ,
+      forestCover: 80,
       percentageOfForestCover: 19.57,
 },
 {
@@ -898,6 +906,10 @@ const country = [
   },
   {
     id: "India",
+    totalArea: 3287263,
+    landCover:2573474 ,
+    forestCover: 713789,
+    percentageOfForestCover: 21.71,
     states: [
      {
 state: "Andhra Pradesh",
@@ -1155,6 +1167,10 @@ forestCover: 80.67,
   },
   {
     id: "Switzerland",
+    totalArea: 41285,
+    landCover:28885 ,
+    forestCover: 12400,
+    percentageOfForestCover: 30.03,
     states: [
       {
         state: "	Zurich",
