@@ -96,7 +96,7 @@ const country = [
       },
       {
         state: "New York",
-        totalArea: 141,300,
+        totalArea: 141300,
         landCover: 52450,
         forestCover: 88849,
         percentageOfForestCover: 62.88,
@@ -696,7 +696,7 @@ const country = [
         {
         state: "Lower Saxony",
         totalArea: 47618,
-        landCover: 44218
+        landCover: 44218,
         forestCover:3400,
         percentageOfForestCover: 7.14,
       },
@@ -764,16 +764,16 @@ const country = [
       {
         state: "Aosta Valley",
         totalArea: 3261,
-        landCover: ,
+        landCover: 1,
         forestCover: 1730,
         percentageOfForestCover: 19.57,
       },
          {
         state: "Apulia",
         totalArea: 19541,
-        landCover: ,
+        landCover:1 ,
         forestCover: 114,
-        percentageOfForestCover: ,
+        percentageOfForestCover: 1,
       },
          {
         state: "Basilicata",
@@ -877,7 +877,7 @@ const country = [
       state: "Tuscany",
       totalArea: 22987,
       landCover: 131068,
-      forestCover: ,
+      forestCover: 1,
       percentageOfForestCover: 19.57,
 },
 {
