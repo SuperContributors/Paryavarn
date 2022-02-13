@@ -8,7 +8,7 @@ import image3 from  '../images/shape-3.png';
 
 const header = () => {
   return (
-    <div className="header_banner_section">
+    <div className="header_banner_section" id="Top">
       <div>
         <img className="header_banner_1" src={image1} alt="" />
         <img className="header_banner_2" src={image2} alt="" />
