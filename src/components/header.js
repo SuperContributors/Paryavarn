@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import '../style/Header.css';
 import image1 from  '../images/shape-1.png';
 import image2 from  '../images/shape-2.png';
@@ -6,7 +6,7 @@ import image3 from  '../images/shape-3.png';
 
 
 
-const header = () => {
+const Header = () => {
   return (
     <div className="header_banner_section" id="Top">
       <div>
@@ -27,4 +27,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header

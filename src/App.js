@@ -8,6 +8,7 @@ import Homepage from './components/Homepage';
 
 
 
+
 const App = () => {
   return <div>
   <Navbar />
@@ -15,6 +16,7 @@ const App = () => {
       <Route exact path="/logein" element={<Authenticat />} />
       <Route exact path="/logpin" element={<Authenticate />} />
       <Route exact path="/" element={<Homepage />} />
+      <Route exact path="/nav" element={<Navbar />} />
     </Routes>
   </div>;
 };
