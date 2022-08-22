@@ -23,8 +23,10 @@ const Know = () => {
       setResponseData(res.data)
       console.log(responseData.name);
     })
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [latitude,longitude]);
 
+  // eslint-disable-next-line no-unused-vars
   const [users, setUsers] = useState([])
 
   const fetchData = () => {
@@ -48,6 +50,7 @@ const Know = () => {
 
   useEffect(() => {
     fetchData()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const [isOpen, setIsOpen] = useState(false);
