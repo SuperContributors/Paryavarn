@@ -76,21 +76,20 @@
 }
 
 .header_content_heading{
-    padding-top:30vh;
+    padding-top: 100px;
     padding-left: 5vh;
     font-size: 5rem;
     font-weight:400;
     line-height:.9;
     color:rgb(66, 109, 76);
-    width:45%;
+    width: 50%;
 }
 .header_content_subheading{
     padding-left: 5vh;
-    padding-top: 3vh;
     font-size: 1.2rem;
     font-weight:600;
     color:rgb(89, 109, 66);
-    width:56%;
+    width:50%;
 }
 
 .header_span{
@@ -103,3 +102,96 @@
     border-top:8px solid rgb(66, 109, 76);
     margin-left:5vh;
 }
+@media only screen and (max-width: 1320px) {
+    .header_content_subheading{
+        padding-left: 5vh;
+        font-size: 1rem;
+        font-weight:600;
+        color:rgb(89, 109, 66);
+        width:26%;
+    }
+  }
+  @media only screen and (max-width: 983px) {
+    .header_content_subheading{
+        padding-left: 5vh;
+        font-size: 0.8rem;
+        font-weight:400;
+        color:rgb(89, 109, 66);
+        width:40%;
+    }
+  }
+  @media only screen and (max-width: 923px) {
+    .header_content_subheading{
+        padding-left: 5vh;
+        font-size: 0.8rem;
+        font-weight:400;
+        color:rgb(89, 109, 66);
+        width:40%;
+    }
+    .header_content_heading{
+        padding-top: 220px;
+        padding-left: 5vh;
+        font-size: 3rem;
+        font-weight:400;
+        line-height:.9;
+        color:rgb(66, 109, 76);
+        width: 50%;
+    }
+  }
+  @media only screen and (max-width: 779px){
+    .header_banner_1{
+        background-size: cover;
+        height: 60vh;
+        width: 70%;
+        position: absolute;
+        right:0;
+        top:20vh;
+        animation: float-1 2s ease-in-out;
+        z-index: -1;
+        display:none;
+    }
+    
+    .header_banner_2{
+        position: absolute;
+        right:30vh;
+        top:16vh;
+        width:15%;
+        animation: float-2 2s ease-in-out;
+        display:none;
+    }
+    
+    .header_banner_3{
+        position: absolute;
+        right:10vh;
+        top:16vh;
+        width:12%;
+        animation: float-3 2s ease-in-out;
+        display:none;
+    }
+    .header_content_heading{
+        padding-top: 200px;
+        padding-left: 16vh;
+        font-size: 3rem;
+        font-weight:400;
+        line-height:.9;
+        color:rgb(66, 109, 76);
+        width: 70%;
+    }
+    .header_content_subheading{
+        padding-left: 16vh;
+        font-size: 1.2rem;
+        font-weight:600;
+        color:rgb(89, 109, 66);
+        width:86%;
+    }
+    .header_span{
+        font-weight: 700;
+        color:rgb(114, 145, 5);
+    }
+    
+    .header_hr{
+        width:30%;
+        border-top:8px solid rgb(66, 109, 76);
+        margin-left:17vh;
+    }
+  }

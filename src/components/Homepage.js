@@ -1,17 +1,23 @@
 import React from 'react'
 import Header from './Header';
-import Footer from './Footer';
-import CardsUi from './Cards';
+import Cards from './Cards';
+import Blog from './Blog';
 import Feature from './Featured';
-import Blog from './Blogs';
+import Footer from './Footer';
 import Template from './Templates';
+import Know from './Know';
+import NavBar from './Navbar';
+
 
 const Homepage = () => {
+
   return (
     <div>
+      <NavBar />
       <Header />
+      <Know />
       <Template />
-      <CardsUi />
+      <Cards />
       <Feature />
       <Blog />
       <Footer />
