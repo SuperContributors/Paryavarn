@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Paryavarn
+## Problem Statement
+Deforestation is one of the most severe and common problems nowadays. We definitely think about our needs and use the trees in that manner, leading to deforestation and a common environmental problem.
+For this, Paryavarn is a fully fledge solution as our team “Super contributors” comes with an amazing idea with calculating tree cover and detecting the live location of user’s contains detailed information about that particular place tree cover so that we came to know that the places which are not well occupied with trees.
+## Table of Contents:
+* [ How to run the project? ](#how_to)
+* [ Features ](#features)
+* [ Tech Stack ](#technologystack)
+* [ Future Plans ](#futureplans)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## <a name="how_to"></a>How to run the project?
+1. Use git clone to clone this repo in your local machine.
+2. Run npm install to install the node modules.
+3. Run npm start and here you are good to go to run this project locally.
 
-## Available Scripts
+## <a name="features"></a>Features :
+1. Made our own API with datasets present on some websites to calculate the forest cover of many countries but main focus is India with two amazin states Uttarprades and Haryana. ( Due to time problem). 
+2. Live location of the user with the forest area calculation.
+3. Some amazing blogs and facts.
 
-In the project directory, you can run:
+## <a name="technologystack"></a>Tech Stack:
+* _React_
+* _Node.js_
+* _Heroku_
+* _Netlify_
+* _Postman_
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you are not satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) 
+## <a name="futureplans"></a>Future Plans:
+There is so much to come for Paryavarn in the future, we will be building more of our API in order to get as much data as possible. We will be implementing image processing and deep learning.

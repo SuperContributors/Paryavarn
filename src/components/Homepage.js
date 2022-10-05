@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header';
+import Header from './header';
 import Cards from './Cards';
 import Blog from './Blog';
 import Feature from './Featured';
