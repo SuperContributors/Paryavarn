@@ -1,4 +1,9 @@
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/SuperContributors/Paryavarn.git)
 # Paryavarn
+<br>
+
+![Screenshot](./src/images/Paryavarn_Readme.jpeg)
+ 
 ## Problem Statement
 Deforestation is one of the most severe and common problems nowadays. We definitely think about our needs and use the trees in that manner, leading to deforestation and a common environmental problem.
 For this, Paryavarn is a fully fledge solution as our team “Super contributors” comes with an amazing idea with calculating tree cover and detecting the live location of user’s contains detailed information about that particular place tree cover so that we came to know that the places which are not well occupied with trees.
